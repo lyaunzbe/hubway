@@ -1,0 +1,25 @@
+{
+  "author": "Benjamin Lyaunzon <lyaunzbe@gmail.com> (http://github.com/lyaunzbe)",
+  "name" : "hubway",
+  "description" : "Hubway Data API wrapper",
+  "version" : "0.1.0",
+  "homepage" : "https://github.com/markover/node-fliptop",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lyaunzbe/hubway"
+  },
+  "engines": {
+    "node": ">= v0.8.0"
+  },
+  "main": "lib/hubway.js",
+  "scripts": {
+    "test": "mocha -R spec test/*-test.js"
+  },
+  "dependencies": {
+    "request": ">= 2.9.203"
+  },
+  "devDependencies": {
+    "mocha": "x",
+    "nock": "x"
+  }
+}
